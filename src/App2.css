@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css?family=Pangolin&display=swap");
+
+.wrapper{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    font-family: 'Pangolin', cursive;
+  }
+
+  .flex-wrapper{
+    flex-direction: column;
+    justify-content: right;
+    align-items: right;
+    height: 310px;
+    z-index: 150;
+    position: relative;
+    display: flex;
+  }
+
+  .gambar{
+    background-image: url("../src/bggrey.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  
+.flex-judul{
+    font-size: 30px;
+    margin: 150px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .judul{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+  }
+  
+.Save{
+  line-height: 275px;
+  color: black;
+  font-weight: 156px;
+  font-size: 45px;
+}
+
+
+.line{
+    margin-left: 330px;
+    margin-top: 50px;
+    border: 6px solid #00B894;
+    width: 10%;
+    border-radius: 0px;
+    background: rgba( 0, 184, 148, 0.1);
+    color: white;
+  }
+
+  .text{
+    text-align: center;
+    font-weight: normal;
+  }
+
+  .line1{
+    position: absolute;
+    left: 150px;
+    top: 360px;
+    border: 5px solid #00B894;
+    width: 10%;
+    border-radius: 5px;
+    background: #00B894;
+    color: white;
+    font-style: normal;
+  }
+
+  .text1{
+    text-align: center;
+    font-weight: normal;
+  }
+
+  .deskripsi{
+      margin: 5px;
+      top: 5px;
+      justify-content: center;
+      line-height: 5px;
+  }
